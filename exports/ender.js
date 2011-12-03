@@ -1,5 +1,5 @@
 !function($) {
-  var UUID = require('uuid');
+  var UUID = require('uuid-v4');
   $.ender({
     UUID: UUID
   });

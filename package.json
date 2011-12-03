@@ -3,12 +3,12 @@
   "description": "random uuid (rfc-4122 v4) generator",
   "version": "1.0.0",
   "keywords": ["ender", "uuid"],
-  "homepage": "https://github.com/makeable/uuid.js",
+  "homepage": "https://github.com/makeable/uuid-v4.js",
   "authors": ["Matthew Williams <matt@makeable.co.uk>"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/makeable/uuid.js.git"
+    "url": "https://github.com/makeable/uuid-v4.js.git"
   },
-  "main": "./uuid.js",
+  "main": "./uuid-v4.js",
   "ender": "./exports/ender.js"
 }
