@@ -1,0 +1,14 @@
+{
+  "name": "uuid",
+  "description": "random uuid (v4) generator",
+  "version": "1.0.0",
+  "keywords": ["ender", "uuid"],
+  "homepage": "https://github.com/makeable/uuid.js",
+  "authors": ["Matthew Williams <matt@makeable.co.uk>"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makeable/uuid.js.git"
+  },
+  "main": "./uuid.js",
+  "ender": "./exports/ender.js"
+}
