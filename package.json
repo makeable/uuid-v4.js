@@ -1,5 +1,5 @@
 {
-  "name": "uuid",
+  "name": "uuid.js",
   "description": "random uuid (v4) generator",
   "version": "1.0.0",
   "keywords": ["ender", "uuid"],
