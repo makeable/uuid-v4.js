@@ -1,6 +1,6 @@
 /*
 ======================================================
-uuid.js :: Random UUID (v4) Generator - Usage: UUID()
+uuid-v4.js :: Random UUID (v4) Generator - Usage: UUID()
 ======================================================
 
 Copyright (c) 2011 Matt Williams <matt@makeable.co.uk>. All rights reserved.
