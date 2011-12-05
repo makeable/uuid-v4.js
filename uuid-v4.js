@@ -33,6 +33,11 @@ or implied, of Matt Williams.
 
 (function(){
   
+  var dec2hex = [];
+  for (var i=0; i<=15; i++) {
+    dec2hex[i] = i.toString(16);
+  }
+  
   var UUID = function() {
     var uuid = '';
     for (var i=1; i<=36; i++) {
@@ -41,9 +46,9 @@ or implied, of Matt Williams.
       } else if (i===15) {
         uuid += 4;
       } else if (i===20) {
-        uuid += (Math.random()*4|0 + 8).toString(16);
+        uuid += dec2hex[(Math.random()*4|0 + 8)];
       } else {
-        uuid += (Math.random()*15|0).toString(16);
+        uuid += dec2hex[(Math.random()*15|0)];
       }
     }
     return uuid;
