@@ -1,3 +1,4 @@
+"use strict";
 /*
 ======================================================
 uuid-v4.js :: Random UUID (v4) Generator - Usage: UUID()
@@ -31,13 +32,13 @@ or implied, of Matt Williams.
 
 */
 
-(function(){
-  
+(function(scope){
+
   var dec2hex = [];
   for (var i=0; i<=15; i++) {
     dec2hex[i] = i.toString(16);
   }
-  
+
   var UUID = function() {
     var uuid = '';
     for (var i=1; i<=36; i++) {
@@ -53,11 +54,11 @@ or implied, of Matt Williams.
     }
     return uuid;
   };
-  
+
   if (typeof exports !== 'undefined') {
     module.exports = UUID;
   } else {
-    this.UUID = UUID;
+    scope.UUID = UUID;
   }
-  
+
 })(this);
