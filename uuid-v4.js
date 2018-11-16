@@ -49,7 +49,7 @@ or implied, of Matt Williams.
       } else if (i===20) {
         uuid += dec2hex[(Math.random()*4|0 + 8)];
       } else {
-        uuid += dec2hex[(Math.random()*15|0)];
+        uuid += dec2hex[(Math.random()*16|0)];
       }
     }
     return uuid;
